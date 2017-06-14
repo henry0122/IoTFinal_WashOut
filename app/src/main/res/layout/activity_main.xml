@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context="com.example.azure.washout.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/frameLayout">
+    </FrameLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/freemachine"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:src="@drawable/drawing2"-->
+        <!--tools:layout_editor_absoluteY="8dp"-->
+        <!--tools:layout_editor_absoluteX="8dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:visibility="visible"></ImageView>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/busymachine"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:src="@drawable/drawing"-->
+        <!--tools:layout_editor_absoluteY="8dp"-->
+        <!--tools:layout_editor_absoluteX="8dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:visibility="gone"></ImageView>-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/free"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Free"-->
+        <!--android:fontFamily="casual"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="50sp"-->
+        <!--android:textColor="@color/colorGreen"-->
+        <!--android:layout_below="@+id/freemachine"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:visibility="visible"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/busy"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Busy"-->
+        <!--android:fontFamily="casual"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="50sp"-->
+        <!--android:textColor="@color/colorRed"-->
+        <!--android:layout_below="@+id/busymachine"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:visibility="gone" />-->
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/frameLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true">-->
+
+    <!--</FrameLayout>-->
+
+</RelativeLayout>

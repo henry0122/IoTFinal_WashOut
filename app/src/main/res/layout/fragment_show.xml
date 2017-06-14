@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context="com.example.azure.washout.ShowFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/wait"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:src="@drawable/loading"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/freemachine"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/drawing2"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/busymachine"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/drawing"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/freemachine"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:text="Free"
+            android:textColor="@color/colorGreen"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:visibility="gone"></TextView>
+
+        <TextView
+            android:id="@+id/busy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/busymachine"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:text="Busy"
+            android:textColor="@color/colorRed"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:visibility="gone"></TextView>
+
+    </RelativeLayout>
+
+</FrameLayout>
